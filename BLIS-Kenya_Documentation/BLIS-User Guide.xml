@@ -5,6 +5,9 @@
     <inlinegraphic fileref="img/bliskenya.png" align="center"/>
   </title>
   <articleinfo>
+    <releaseinfo>
+      <emphasis role="bold">User Guide</emphasis>
+    </releaseinfo>
     <releaseinfo>C4G BLIS v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
     <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
   </articleinfo>

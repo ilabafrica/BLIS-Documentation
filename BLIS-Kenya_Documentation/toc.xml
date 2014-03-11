@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd" []>
+<article>
+  <title>Table of contents</title>
+  <para><ulink url="BLIS-SOP.html" remap="" xml:base="mainFrame" dir="lro" target="mainFrame" type="" wordsize="" arch="mainFrame" condition="mainFrame" conformance="mainFrame" id="mainFrame" lang="mainFrame" os="mainFrame" revision="mainFrame" revisionflag="off" role="mainFrame" security="mainFrame" userlevel="mainFrame" vendor="mainFrame" xml:lang="mainFrame" xml:space="default" xreflabel="mainFrame" xrefstyle="mainFrame">Standard Operating procedure (SOP)</ulink></para>
+  <para><ulink url="BLIS-User Guide.html">User Guide</ulink></para>
+  <para><ulink url="Sys-Doc.html">System Documentation</ulink></para>
+</article>

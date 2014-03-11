@@ -1,7 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- This document was created with Syntext Serna Free. --><!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd" []>
 <article>
-  <title>BLIS</title>
+  <title>
+    <inlinegraphic fileref="img/bliskenya.png" align="center"/>
+  </title>
+  <articleinfo>
+    <releaseinfo>
+      <emphasis role="bold">Standard Operating Procedures(SOP)</emphasis>
+    </releaseinfo>
+    <releaseinfo>C4G BLIS v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
+    <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
+  </articleinfo>
   <section>
     <title>Starting BLIS</title>
     <para>To start the Basic Laboratory Information System, you must click on the bookmark saved on the web browser e.g. Google Chrome or Mozilla Firefox.  You will then see a page requesting login information. You must then enter your credentials to proceed.</para>
