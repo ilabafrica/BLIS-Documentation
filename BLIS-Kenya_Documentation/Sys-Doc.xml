@@ -8,7 +8,7 @@
     <releaseinfo>
       <emphasis role="bold">System Documentation</emphasis>
     </releaseinfo>
-    <releaseinfo>C4G BLIS v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
+    <releaseinfo>BLIS-Kenya v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
     <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
   </articleinfo>
   <section>
@@ -1273,6 +1273,157 @@ Amylase</para><para>Triglyceride</para><para>Gamma GT
 </para>
           </listitem>
         </itemizedlist>
+      </section>
+      <section>
+        <title>Installation</title>
+        <section>
+          <title>Installing XAMPP on windows</title>
+          <orderedlist>
+            <listitem>
+              <para>Install XAMPP</para>
+            </listitem>
+            <listitem>
+              <para>Start the XAMPP Control Panel
+Start the Apache and MySQL components. </para>
+              <para>You can also start the other components, if you plan to use them.
+</para>
+              <para>Verify the Apache install, by clicking on the Apache administrative link in the Control Panel.
+</para>
+              <para>Verify the MySQL installation, by clicking on the MySQL administrative link in the XAMPP Control Panel.
+If the verification steps are successful, XAMPP should be successfully installed on your PC. </para>
+              <para>Open a browser and enter &quot;localhost&quot; on your address bar. You will be redirected to a page telling you that you&apos;ve successfully installed xampp on your system
+</para>
+            </listitem>
+            <listitem>
+              <para>Put the BLIS-Kenya folder in a subdirectory of your installation named htdocs. Normally
+</para>
+              <programlisting>C:\xampp\htdocs\
+</programlisting>
+            </listitem>
+            <listitem>
+              <para>
+Set up an IP address for other computers on your network to view the server you have created
+</para>
+            </listitem>
+          </orderedlist>
+        </section>
+        <section>
+          <title>Installing LAMP on Linux </title>
+          <section>
+            <title>Install Apache</title>
+            <para>To start off install Apache
+</para>
+            <orderedlist>
+              <listitem>
+                <para>Open up the Terminal (Applications &gt; Accessories &gt; Terminal).
+</para>
+              </listitem>
+              <listitem>
+                <para>Copy/Paste or type the following line of code into Terminal and then press enter:
+</para>
+                <programlisting>sudo apt-get install apache2</programlisting>
+              </listitem>
+              <listitem>
+                <para>The Terminal will then ask you for your password, type it and then press enter.</para>
+              </listitem>
+            </orderedlist>
+          </section>
+          <section>
+            <title>Testing Apache</title>
+            <para>Test Apache to ensure it is working properly.</para>
+            <orderedlist>
+              <listitem>
+                <para>Open up any web browser and then enter the following into the web address:</para>
+                <programlisting>http://localhost/</programlisting>
+              </listitem>
+              <listitem>
+                <para>You should see a folder entitled apache2-default/. Open it and you will see a message saying &quot;It works!” </para>
+              </listitem>
+            </orderedlist>
+          </section>
+          <section>
+            <title>Install PHP</title>
+            <orderedlist>
+              <listitem>
+                <para>Open up the Terminal (Applications &gt; Accessories &gt; Terminal).</para>
+              </listitem>
+              <listitem>
+                <para>Copy/Paste or type the following line into Terminal and press enter:</para>
+                <programlisting>sudo apt-get install php5 libapache2-mod-php5</programlisting>
+              </listitem>
+              <listitem>
+                <para>In order for PHP to work and be compatible with Apache, restart Apache. Type the following code in Terminal to restart:</para>
+                <programlisting>sudo /etc/init.d/apache2 restart</programlisting>
+              </listitem>
+            </orderedlist>
+          </section>
+          <section>
+            <title>Test PHP</title>
+            <para>To ensure there are no issues with PHP, give it a test run.</para>
+            <orderedlist>
+              <listitem>
+                <para>In the terminal copy/paste or type the following line:</para>
+                <programlisting>sudo gedit /var/www/testphp.php</programlisting>
+                <para>This will open up a file called testphp.php.</para>
+              </listitem>
+              <listitem>
+                <para>Copy/Paste this line into the phptest file:</para>
+                <para>&lt;?php phpinfo(); ?&gt;</para>
+              </listitem>
+              <listitem>
+                <para> Save and close the file.</para>
+              </listitem>
+              <listitem>
+                <para>Open the web browser and type the following into the web address:</para>
+                <programlisting>http://localhost/testphp.php</programlisting>
+                <para>It will show you the page that has all information about your php. </para>
+                <para>
+Apache and PHP are now installed
+</para>
+              </listitem>
+            </orderedlist>
+          </section>
+          <section>
+            <title>Install MySQL</title>
+            <orderedlist>
+              <listitem>
+                <para>Open up the Terminal and copy/paste or type this line:</para>
+                <programlisting>sudo apt-get install mysql-server</programlisting>
+              </listitem>
+              <listitem>
+                <para>(optional). In order for other computers on your network to view the server you have created, you must first edit the &quot;Bind Address&quot;. Begin by opening up Terminal to edit the my.cnf file.</para>
+                <programlisting>gksudo gedit /etc/mysql/my.cnf</programlisting>
+                <para>Change the line</para>
+                <programlisting>bind-address = 127.0.0.1</programlisting>
+                <para>bind-address = 127.0.0.1
+And change the 127.0.0.1 to your IP address.</para>
+                <para>The, terminal itself may ask  to the set password, But if it doesn&apos;t follow the step 3.
+</para>
+              </listitem>
+              <listitem>
+                <para>Type the following into the Terminal:</para>
+                <programlisting>mysql -u root</programlisting>
+                <para>Copy/paste or type this line:</para>
+                <programlisting>mysql&gt; SET PASSWORD FOR &apos;root&apos;@&apos;localhost&apos; = PASSWORD(&apos;yourpassword&apos;);</programlisting>
+                <para>(Make sure to change yourpassword to a password of your choice.)</para>
+              </listitem>
+              <listitem>
+                <para>Install phpMyAdmin. Copy/paste or type the following line into Terminal:</para>
+                <programlisting>sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin</programlisting>
+                <para>To get PHP to work with MySQL, open  php.ini.  Type the following:</para>
+                <programlisting>gksudo gedit /etc/php5/apache2/php.ini</programlisting>
+                <para>Uncomment the following line by taking out the semicolon (;).
+Change this line:
+</para>
+                <programlisting>;extension=mysql.so</programlisting>
+                <para>To look like this:</para>
+                <programlisting>extension=mysql.so</programlisting>
+                <para>Restart Apache and you are all set! </para>
+                <programlisting>sudo /etc/init.d/apache2 restart</programlisting>
+              </listitem>
+            </orderedlist>
+          </section>
+        </section>
       </section>
     </section>
     <section>
