@@ -2,7 +2,7 @@
 <!-- This document was created with Syntext Serna Free. --><!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd" []>
 <article>
   <title>
-    <inlinegraphic fileref="img/bliskenya.png" align="center"/>
+    <inlinegraphic fileref="img/bliskenya.png" width="150" align="center"/>
   </title>
   <articleinfo>
     <releaseinfo>
@@ -11,30 +11,88 @@
     <releaseinfo>BLIS-Kenya v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
     <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
   </articleinfo>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
   <section>
     <title>Starting BLIS</title>
     <para>To start the Basic Laboratory Information System, you must click on the bookmark saved on the web browser e.g. Google Chrome or Mozilla Firefox.  You will then see a page requesting login information. You must then enter your credentials to proceed.</para>
     <graphic fileref="img/Untitled.png" align="center"/>
     <para>If you have forgotten your password, kindly contact the lab-in-charge for help</para>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
   </section>
   <section>
     <title>BLIS Technical Overview</title>
     <para>When you log in as a technician, you see this home page:</para>
-    <graphic fileref="img/New Picture (1).png" align="center"/>
+    <graphic fileref="img/New Picture (1).png" width="450" align="center"/>
     <para>With Technician rights you can edit your profile to add or change email, phone, and profile picture. Username cannot be changed.
 Hover on the top right side of the top bar where you see your username e.g. Wasike.
 Click on the username to open a dropdown menu with ‘Edit profile’ and ‘Logout’ items as shown.
 </para>
-    <graphic fileref="img/New Picture (21).png" align="center"/>
+    <graphic fileref="img/New Picture (21).png" width="450" align="center"/>
     <para>Once you click on ‘Edit profile’, you’ll get the following form</para>
-    <graphic fileref="img/New Picture.png" align="center"/>
+    <graphic fileref="img/New Picture.png" width="450" align="center"/>
     <para>Update your details as appropriate and click on the ‘Update’ button.
 To change your password, use the ‘Change password’ link on the ‘Edit profile’ form as shown.
 </para>
-    <graphic fileref="img/New Picture (2).png" align="center"/>
+    <graphic fileref="img/New Picture (2).png" width="450" align="center"/>
     <para>Fill in the form carefully and save the changes using the ‘Update’ button.
 Do not share your password with anyone else and please do not forget your password.
 </para>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
   </section>
   <section>
     <title>Tests</title>
@@ -43,21 +101,21 @@ Do not share your password with anyone else and please do not forget your passwo
       <para>Click on the ‘Tests’ menu item on the right bar.
 A list of all pending lab requests from SANITAS shall be displayed as shown.
 </para>
-      <graphic fileref="img/New Picture (3).png" align="center"/>
+      <graphic fileref="img/New Picture (3).png" width="450" align="center"/>
       <para>If you don’t see the request among the listed, you can SEARCH for the patient using the PATIENT NUMBER or the PATIENT NAME as captured below. 
 </para>
       <para>Remember to press ‘Enter’ after giving the search value.</para>
-      <graphic fileref="img/New Picture (4).png" align="center"/>
+      <graphic fileref="img/New Picture (4).png" width="450" align="center"/>
       <para>Proceed to receive the request from using the ‘Receive Lab Request’ button on the far right of the row to get the following display</para>
-      <graphic fileref="img/New Picture (5).png" align="center"/>
+      <graphic fileref="img/New Picture (5).png" width="450" align="center"/>
       <para>After submitting the details using ‘Submit’ button, the following page will appear to confirm successful submission</para>
-      <graphic fileref="img/New Picture (6).png" align="center"/>
+      <graphic fileref="img/New Picture (6).png" width="450" align="center"/>
     </section>
     <section>
       <title>Accepting a Specimen </title>
       <para>Once you have received the request, you’ll need to check the specimen for acceptance.</para>
       <para>If acceptable, press the ‘Accept’ button as shown on the particular row of data to be directed to the following page.</para>
-      <graphic fileref="img/New Picture (7).png" align="center"/>
+      <graphic fileref="img/New Picture (7).png" width="450" align="center"/>
       <para>You’ll get the specimen number in the format e.g. PAR-0001.
 PAR identifies the laboratory section the specimen shall be worked on and the numeric values represent the actual specimen identifier. 
 Label the specimen with that specimen number provided.
@@ -69,18 +127,18 @@ Sort the specimens ready for dispatch to the sections.
       <para>Sometimes, a specimen may fall short of the standards required for tests to be done on a sample, might be unlabeled, insufficient or due to other reasons especially with referral specimen.
 If so, search for the specimen as described above if not found among the displayed records.
 </para>
-      <graphic fileref="img/Untitled3.png" align="center"/>
+      <graphic fileref="img/Untitled3.png" width="450" align="center"/>
       <para>On the corresponding row of the specimen, press the ‘Reject’ button.</para>
-      <graphic fileref="img/Untitled4.png" align="center"/>
+      <graphic fileref="img/Untitled4.png" width="450" align="center"/>
       <para>Fill in the form appropriately and submit it using the ‘submit’ button
 You have successfully rejected the specimen as captured below.
 </para>
-      <graphic fileref="img/Untitled5.png" align="center"/>
+      <graphic fileref="img/Untitled5.png" width="450" align="center"/>
     </section>
     <section>
       <title> Starting a Test</title>
       <para>Search for the patient, test or specimen OR simply filter using the dropdown under ‘Status’ select box for ‘Pending.</para>
-      <graphic fileref="img/New Picture (9).png" align="center"/>
+      <graphic fileref="img/New Picture (9).png" width="450" align="center"/>
       <para>Search for the specimen
 </para>
       <para>Check that its status is ‘Pending’
@@ -89,7 +147,7 @@ You have successfully rejected the specimen as captured below.
 </para>
       <graphic fileref="img/New Picture (8).png" align="center"/>
       <para>The status will change to ‘Started’ as captured.</para>
-      <graphic fileref="img/New Picture (10).png" align="center"/>
+      <graphic fileref="img/New Picture (10).png" width="450" align="center"/>
       <para>Proceed to perform the test</para>
     </section>
     <section>
@@ -99,39 +157,39 @@ Search the specimen
 Go to the corresponding row and click on ‘Enter results’
 A pop-up form will be provided to be filled in appropriately.
 </para>
-      <graphic fileref="img/New Picture (11).png" align="center"/>
+      <graphic fileref="img/New Picture (11).png" width="450" align="center"/>
       <para>Once done, submit the results using the ‘Submit’ button to get the following confirmation</para>
-      <graphic fileref="img/Untitled7.png" align="center"/>
+      <graphic fileref="img/Untitled7.png" width="450" align="center"/>
     </section>
     <section>
       <title>Editing Test Results</title>
       <para>Search for the patient, test or specimen OR simply filter using the dropdown under ‘Status’ select box for ‘Tested’.</para>
-      <graphic fileref="img/New Picture (13).png" align="center"/>
+      <graphic fileref="img/New Picture (13).png" width="450" align="center"/>
       <para>The following table will be given</para>
-      <graphic fileref="img/New Picture (12).png" align="center"/>
+      <graphic fileref="img/New Picture (12).png" width="450" align="center"/>
       <para>On the corresponding row, click on ‘Edit’ to open a pop-up form with pre-filled data</para>
-      <graphic fileref="img/New Picture (14).png" align="center"/>
+      <graphic fileref="img/New Picture (14).png" width="450" align="center"/>
       <para>Update the results as appropriate and save the changes by using the ‘submit’ button.</para>
-      <graphic fileref="img/Untitled6.png" align="center"/>
+      <graphic fileref="img/Untitled6.png" width="450" align="center"/>
     </section>
     <section>
       <title>Results Verification</title>
       <para>Here, specific heads of lab sections are assigned results verification privileges.
 To verify results, you may use the ‘Verify’ button and proceed to verify the results.
 </para>
-      <graphic fileref="img/New Picture (16).png" align="center"/>
+      <graphic fileref="img/New Picture (16).png" width="450" align="center"/>
       <para>The following pop-up will be displayed</para>
-      <graphic fileref="img/New Picture (15).png" align="center"/>
+      <graphic fileref="img/New Picture (15).png" width="450" align="center"/>
     </section>
     <section>
       <title>Viewing Results </title>
       <para>To view test results, search for the verified test results
 </para>
-      <graphic fileref="img/New Picture (17).png" align="center"/>
+      <graphic fileref="img/New Picture (17).png" width="450" align="center"/>
       <para>You’ll see a ‘View results’ button
 Click on the button and a form containing the results of the test shall pop-up
 </para>
-      <graphic fileref="img/New Picture (18).png" align="center"/>
+      <graphic fileref="img/New Picture (18).png" width="450" align="center"/>
       <para>Close the pop-up when done to continue navigating the system.</para>
     </section>
     <section>
@@ -141,14 +199,14 @@ Search for the specimen, patient or test
 On the corresponding row, click on the ‘View details’ on the far right column of the table
 Details of the specimen shall be presented in a pop-up form.
 </para>
-      <graphic fileref="img/New Picture (19).png" align="center"/>
+      <graphic fileref="img/New Picture (19).png" width="450" align="center"/>
     </section>
     <section>
       <title>Patient Report</title>
       <para>On the pop-up form presented when viewing details, there is ‘Get Report’ link
 Click on that link to open a printable report on a new browser tab
 </para>
-      <graphic fileref="img/Untitled2.png" align="center"/>
+      <graphic fileref="img/Untitled2.png" width="450" align="center"/>
       <para>Proceed to print the report if you so wish for a hard copy of the same.</para>
     </section>
   </section>

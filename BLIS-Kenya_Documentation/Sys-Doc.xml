@@ -2,7 +2,7 @@
 <!-- This document was created with Syntext Serna Free. --><!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd" []>
 <article>
   <title>
-    <inlinegraphic fileref="img/bliskenya.png" align="center"/>
+    <inlinegraphic fileref="img/bliskenya.png" width="150" align="center"/>
   </title>
   <articleinfo>
     <releaseinfo>
@@ -11,13 +11,31 @@
     <releaseinfo>BLIS-Kenya v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
     <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
   </articleinfo>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
   <section>
     <title>Introduction</title>
     <section>
       <title>Purpose</title>
       <para>Basic Laboratory Information System (BLIS) is a free open-source laboratory information system (LIS). It is primarily utilized in Africa, is an initiative of the Computing for Good (C4G) program at Georgia Institute of Technology, the CDC and participating countries. BLIS was chosen by APHL/CDC and Kenya LIMS stakeholders as the laboratory information system to be implemented for a pilot roll-out in Bungoma and Kapsabet District Hospitals. </para>
       <para> 
-This document describes in detail the system design, requirements specification and implementation details. The described system design also captures the modifications that are being as it is customized BLIS to fit the requirements for Bungoma and Kapsabet Laboratories. Scope
+This document describes in detail the system design, requirements specification and implementation details. The described system design also captures the modifications that are being as it is customized BLIS to fit the requirements for Bungoma and Kapsabet Laboratories.
 </para>
     </section>
     <section>
