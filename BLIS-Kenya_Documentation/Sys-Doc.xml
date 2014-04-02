@@ -1295,13 +1295,13 @@ Amylase</para><para>Triglyceride</para><para>Gamma GT
       <section>
         <title>Installation</title>
         <section>
-          <title>Installing XAMPP on windows</title>
+          <title>Installing BLIS-Kenya on XAMPP for Windows</title>
           <orderedlist>
             <listitem>
               <para>Install XAMPP</para>
             </listitem>
             <listitem>
-              <para>Start the XAMPP Control Panel
+              <para>Start the XAMPP Control Panel,
 Start the Apache and MySQL components. </para>
               <para>You can also start the other components, if you plan to use them.
 </para>
@@ -1313,15 +1313,23 @@ If the verification steps are successful, XAMPP should be successfully installed
 </para>
             </listitem>
             <listitem>
-              <para>Put the BLIS-Kenya folder in a subdirectory of your installation named htdocs. Normally
+              <para>Put the <ulink url="https://github.com/ilabafrica/BLIS-Kenya/tree/BLIS-KDH">BLIS-Kenya</ulink> folder in a subdirectory of your installation named htdocs.
 </para>
               <programlisting>C:\xampp\htdocs\
 </programlisting>
             </listitem>
             <listitem>
+              <para>Create databases</para>
+              <para><programlisting>blis_301</programlisting>and<programlisting>blis_revamp_prod </programlisting></para>
+              <para>Import tables and basic operations information from <ulink url="https://github.com/ilabafrica/BLIS-Docs/blob/BLIS-Docs/BLIS-Kenya_Documentation/DB_tables.zip">SQL</ulink> files of the same names</para>
+            </listitem>
+            <listitem>
               <para>
-Set up an IP address for other computers on your network to view the server you have created
+Set up a  static   IP address for other computers on your network to view the server you have created
 </para>
+            </listitem>
+            <listitem>
+              <para>Login with the username: <emphasis role="bold">superadmin</emphasis> and password: <emphasis role="bold">admin123, </emphasis>be sure to change this password after logging in</para>
             </listitem>
           </orderedlist>
         </section>
