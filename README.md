@@ -5,7 +5,8 @@ Useful BLIS Project Docs
 
 CONTENTS
 -----------
-Archives - Legacy C4G BLIS Documentation
-BLIS-Kenya Documentation - Current BLIS-Kenya documentation
-Bungoma Lab Documents - Paper forms, procedures, charts from Bungoma
-Lab Instrument Manuals - Documentation for some laboratory equipment (CELTAC, FACS, ...)
+<p>	Archives - Legacy C4G BLIS Documentation	</p>
+<p>	BLIS-Kenya Documentation - Current BLIS-Kenya documentation	</p>
+<p>	Bungoma Lab Documents - Paper forms, procedures, charts from Bungoma	</p>
+<p>	Lab Instrument Manuals - Documentation for some laboratory equipment (CELTAC, FACS, ...)	</p>
+
