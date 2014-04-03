@@ -1,2 +1,0 @@
-Version Information: 
-cobas c111 Version 3.0.3.1146 as of 22-Nov-2011 
