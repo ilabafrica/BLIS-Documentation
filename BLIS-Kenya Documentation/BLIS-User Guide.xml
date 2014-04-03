@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- This document was created with Syntext Serna Free. --><!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd" []>
+<article>
+  <title>
+    <inlinegraphic fileref="img/bliskenya.png" width="150" align="center"/>
+  </title>
+  <articleinfo>
+    <releaseinfo>
+      <emphasis role="bold">User Guide</emphasis>
+    </releaseinfo>
+    <releaseinfo>BLIS-Kenya v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
+    <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
+  </articleinfo>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <para/>
+  <section>
+    <title>What is BLIS? </title>
+    <para>The Basic Laboratory Information System, BLIS, is a freeware Web-based system that 
+can be installed in a local, district, or national laboratory. It is a tool that can help to 
+standardize data, which improves the ability to run useful reports and can both give a 
+realistic picture of laboratory services and assist with staff and budget planning. With 
+enough data, BLIS can be used to track disease prevalence over time</para>
+    <itemizedlist>
+      <para>Features of BLIS include: </para>
+      <listitem>
+        <para>One-time entry of each unique patient</para>
+      </listitem>
+      <listitem>
+        <para>Standardization of data collected (allowable entries for specimen type, test type, 
+patient data, reagents are set at MOH level and then entered consistently 
+throughout a country)</para>
+      </listitem>
+      <listitem>
+        <para>Customization to a country’s needs</para>
+      </listitem>
+      <listitem>
+        <para>Ability to track lab supplies such as test kits, reagents</para>
+      </listitem>
+      <listitem>
+        <para>Ability to run reports as specified by a country
+• </para>
+      </listitem>
+      <listitem>
+        <para>Automatic alerting of data values that may be out of range(reference ranges and 
+panic values are set at the regional or national level)</para>
+      </listitem>
+      <listitem>
+        <para>Daily logs to be reviewed for data verification</para>
+      </listitem>
+      <listitem>
+        <para>Simple data backup</para>
+      </listitem>
+    </itemizedlist>
+    <itemizedlist>
+      <para>As with any properly implemented electronic record system, BLIS may be found over 
+time to improve data accuracy and reduce costs in laboratories. Benefits already seen in 
+labs using BLIS:</para>
+      <listitem>
+        <para>Reduced burden for technicians, as results are available soon after testing</para>
+      </listitem>
+      <listitem>
+        <para>Improved consistency of data entry</para>
+      </listitem>
+      <listitem>
+        <para>Ability to view patient history and track samples</para>
+      </listitem>
+      <listitem>
+        <para>Ability to aggregate data and analyze data patterns and trends at a regional or 
+national level</para>
+      </listitem>
+      <listitem>
+        <para>Printed patient records in place of handwritten records</para>
+      </listitem>
+      <listitem>
+        <para>Printed daily logs that make the reports look like the paper forms used in the 
+laboratory</para>
+      </listitem>
+    </itemizedlist>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+  </section>
+  <section>
+    <title>Starting BLIS</title>
+    <para>To start the Basic Laboratory Information System, you must click on the bookmark saved on the web browser e.g. Google Chrome or Mozilla Firefox.  You will then see a page requesting login information. You must then enter your credentials to proceed.</para>
+    <graphic fileref="img/Untitled.png" align="center"/>
+    <para>If you have forgotten your password, kindly contact the lab-in-charge for help</para>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+    <para/>
+  </section>
+  <section>
+    <title>Manager (Admin) Overview</title>
+    <para>The manager interface gives you the ability to add, edit, and delete users as well as 
+change laboratory configuration settings. As a manager, you can also generate and print 
+reports.
+When you log in as an administrator, you see the Manager home page.</para>
+    <graphic fileref="img/m_home.png" width="450" align="center"/>
+    <para>To switch to technician view, click the <emphasis role="bold">Work as Technician</emphasis> link at the top right of the 
+page. To go back to the manager view, click the <emphasis role="bold">Work as Manager</emphasis> link that will be in 
+the same place on the screen.</para>
+  </section>
+  <section>
+    <title>Lab Configuration </title>
+    <para>To switch to technician view, click the Work as Technician link at the top right of the 
+page. To go back to the manager view, click the Work as Manager link that will be in 
+the same place on the screen.</para>
+    <para>The various pages of this section are explained in the following pages:</para>
+    <section>
+      <title>Summary</title>
+      <para>This page displays information about lab, specimen types, and test types. It also lists 
+technicians’ logins and privileges. </para>
+      <graphic fileref="img/lc_summary.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>Tests</title>
+      <section>
+        <title>Specimen/TestTypes</title>
+        <para>Allows you to set the specimen and test types as appropriate for your country. Click <emphasis role="bold"> Show</emphasis> to reveal and <emphasis role="bold">Hide</emphasis> to close the list. Check the box for each specimen type collected 
+or test done at this facility, and click <emphasis role="bold">Submit</emphasis> to save.  </para>
+        <graphic fileref="img/lc_testtype.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Target TAT</title>
+        <para>Displays turnaround times for tests. To enter or change turnaround time, click <emphasis role="bold">Edit</emphasis>. The 
+number and unit (such as “24 hours”) change to a text field and a drop-down list. Enter 
+the desired number and choose <emphasis role="bold">Hours</emphasis> or <emphasis role="bold">Days</emphasis>. When finished, click the <emphasis role="bold">Submit</emphasis> button 
+to save changes, or <emphasis role="bold">Cancel</emphasis> to discard changes. These options are below the list. </para>
+        <graphic fileref="img/lc_TAT.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Results Interpretation</title>
+        <para>Allows you to specify the interpretation for multiple ranges of values for each test type. 
+To view or edit an existing test’s result, choose the test type from the drop-down list and 
+click the <emphasis role="bold">Search</emphasis> button. The current interpretation appears. Edit using the text boxes.  </para>
+        <para> Click the <emphasis role="bold">Submit</emphasis> button to save changes, <emphasis role="bold">Cancel</emphasis> to discard them. </para>
+      </section>
+    </section>
+    <section>
+      <title>Search</title>
+      <para>This section allows you to configure what results are displayed for each patient when a
+search is executed. It also allows you to change how many results are displayed on each
+page.</para>
+      <graphic fileref="img/lc_search.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>Reports</title>
+      <section>
+        <title>Infection Report</title>
+        <para>Generates an aggregate report of laboratory test results for a particular period for one or 
+all lab sections. The tests listed in the report are the ones checked to include on the 
+Specimen/Test Types page. Click <emphasis role="bold">Edit</emphasis> to make changes to the details reported. When 
+finished, click <emphasis role="bold">Submit</emphasis> button to save changes, <emphasis role="bold">Preview</emphasis> to view the report, <emphasis role="bold">Cancel</emphasis> to 
+discard changes. </para>
+        <graphic fileref="img/lc_infection_report.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Test/Specimen Count Reports</title>
+        <para>Allows you to set the test and specimen count report content and layout.
+click <emphasis role="bold">Edit</emphasis> to make changes. When finished, click the<emphasis role="bold"> Submit </emphasis>button to save changes, or <emphasis role="bold">Cancel </emphasis>to discard changes. </para>
+        <graphic fileref="img/lc_testspecimen_report.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Daily Report Settings</title>
+        <para>Allows you to set the layout of the Patient Report, Daily Log of Specimens, and Daily 
+Log of Patients. Use the drop-down to select the report type, and click<emphasis role="bold"> Search</emphasis>. Edit 
+report settings, and add or change a logo to appear on the report. Check or un-check 
+boxes to show or hide patient, specimen, and test information. When finished, click the <emphasis role="bold"> Submit</emphasis> button to save changes, or <emphasis role="bold">Cancel </emphasis>to discard changes. These options are below 
+the list. </para>
+        <graphic fileref="img/lc_daily_report_settings.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Worksheet</title>
+        <para>Allows you to create templates to gather patient data in the lab. In lab settings where 
+data are not entered at the point of service, the data entry staff enter patient information 
+and the tests ordered, then print the worksheet so that lab technicians can write test results 
+and other data to be entered into BLIS. Select the <emphasis role="bold">Lab Section</emphasis> and <emphasis role="bold">Test Type</emphasis> and click <emphasis role="bold"> Search</emphasis> to edit the report format. To edit a custom report, click <emphasis role="bold">Edit</emphasis> to the right of the 
+report.  To create a new custom worksheet, click the <emphasis role="bold">Add Custom Worksheet</emphasis> link at the 
+bottom of the list.</para>
+        <graphic fileref="img/lc_worksheet.png" width="450" align="center"/>
+      </section>
+    </section>
+    <section>
+      <title>Barcode Settings</title>
+      <para>To alter the encoding format, barcode width, barcode height and text size.
+Click <emphasis role="bold">Barcode Settings</emphasis> on the left menu to make changes and <emphasis role="bold">Submit</emphasis> to save
+</para>
+      <graphic fileref="img/lc_barcode.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>User Accounts</title>
+      <para>This page shows all the users with access to the system. It allows you to create new user 
+accounts, edit account settings, delete accounts, and monitor account activity.</para>
+      <para>Click <emphasis role="bold">Add New Account </emphasis>to enter a new user.</para>
+      <graphic fileref="img/lc_user1.png" width="450" align="center"/>
+      <graphic fileref="img/lc_user2.png" width="450" align="center"/>
+      <para><emphasis role="bold">Recent Activity</emphasis> opens a new browser page to show the user’s activity by location, 
+specimen entry, and results. To view activity by date, enter or edit the start and end dates 
+of the range you wish to see and click <emphasis role="bold">View</emphasis>. When you are finished, click <emphasis role="bold">Print</emphasis> or <emphasis role="bold">Close This Page</emphasis>.</para>
+      <para>Click<emphasis role="bold"> Edit</emphasis> for a user to edit user account details or to reset password. <emphasis role="bold">User Type</emphasis> dictates 
+the access the user has in the system.<emphasis role="bold"> Reset Password</emphasis> allows you as administrator to 
+enter a new password for this user. Click <emphasis role="bold">Submit</emphasis> button to save changes, <emphasis role="bold">Cancel</emphasis> to 
+discard.</para>
+      <para>To remove a user account, click the <emphasis role="bold">Delete</emphasis> link for that user. A confirmation box appears. 
+Click <emphasis role="bold">OK</emphasis> to complete the deletion,<emphasis role="bold"> Cancel</emphasis> to keep that user’s information.</para>
+    </section>
+    <section>
+      <title>Registration Fields</title>
+      <para>This page shows the configuration of the patient registration page. It allows you to create 
+mandatory fields and hide the fields that are not used, per your country’s protocols. It
+also allows for creation of certain custom fields for Patient registration and new 
+Specimen addition which may be needed by certain labs only.
+To customize fields, click <emphasis role="bold">Edit</emphasis> to make changes: check the box to display a field, uncheck to hide. Set fields as required. After editing, click <emphasis role="bold">Update</emphasis> button below the fields 
+to save changes, <emphasis role="bold">Cancel</emphasis> to discard. 
+To create new fields, choose the <emphasis role="bold">Add New</emphasis> link for which to add, and enter field name 
+and type. Click <emphasis role="bold">Submit</emphasis> button to save changes, <emphasis role="bold">Cancel </emphasis>to discard. </para>
+      <graphic fileref="img/lc_registration.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>Export Configuration</title>
+      <para>Use this feature to export all configuration settings to Microsoft Word. Clicking this link 
+opens a new browser tab with a preview showing all preset and custom fields as well as 
+report settings. The preview has three buttons at the top: Print, Export as Word document, 
+and Close. 
+Click the <emphasis role="bold">Print</emphasis> button to open the print dialog box; Export as Word document to create 
+a file named <emphasis role="bold">blisreport_[date of report].doc</emphasis>, which you may open or save, or <emphasis role="bold">Close</emphasis> to 
+close this browser tab.  </para>
+    </section>
+  </section>
+  <section>
+    <title>Test Catalog </title>
+    <section>
+      <title>Lab Sections</title>
+      <para>This provides the  option to add a new section. Click Add New to add a new section, Submit to save and Cancel to discard. On the right of the section list click <emphasis role="bold">Edit</emphasis> to make changes and <emphasis role="bold">Delete</emphasis>  to remove the section   </para>
+      <graphic fileref="img/tc_labsections.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>Test Types</title>
+      <para>This is the place to add or edit test types used in your laboratory.  
+Click <emphasis role="bold">Add New</emphasis> to enter a new test type. Required fields are <emphasis role="bold">Name</emphasis>, which is a text box;<emphasis role="bold">Lab Section</emphasis>, a drop-down list that includes an option to add a new section; <emphasis role="bold"> Measures</emphasis>, 
+which are editable; and <emphasis role="bold">Compatible Specimens</emphasis>, which allows you to check one or more 
+specimens that can be used for this test. 
+Optional fields include <emphasis role="bold">Description</emphasis> (text box), <emphasis role="bold">Clinical Data</emphasis>, <emphasis role="bold">Panel Test</emphasis> (a check-box, 
+checked for Yes), <emphasis role="bold">Hide Patient’s Name in report</emphasis> (drop-down Yes/No), <emphasis role="bold">Prevalence Threshold</emphasis> 
+(text box), and <emphasis role="bold">Target TAT</emphasis> (text box).
+To edit the information about a test type, find the one you wish to edit on the list and then 
+click the <emphasis role="bold">Edit</emphasis> link in the far-right column. 
+Click <emphasis role="bold">Submit </emphasis>button to save changes, <emphasis role="bold">Cancel</emphasis> to discard. </para>
+      <graphic fileref="img/tc_testtypes.png" width="450" align="center"/>
+      <graphic fileref="img/tc_testtnew.png" width="450" align="center"/>
+    </section>
+    <section>
+      <title>Specimen Types</title>
+      <para>This is the place to add or edit specimen types used in your laboratory. 
+Click Add New to enter a new specimen type. Required fields are Name, which is a text 
+box for entering the name of the specimen, and Compatible Tests, which allows you to 
+check the tests that can be performed using that specimen. Ctrl-F opens the Find function 
+to search for a test. You may enter a Description of the specimen type, which is optional.
+To edit the information about a specimen type, find the one you wish to edit on the list 
+and then click the Edit link in the far-right column. 
+Click Submit button to save changes, Cancel to discard. </para>
+      <graphic fileref="img/tc_specimentyps.png" width="450" align="center"/>
+      <graphic fileref="img/tc_specimentypnw.png" width="450" align="center"/>
+    </section>
+  </section>
+  <section>
+    <title>Technician Overview</title>
+    <para>When you log in as a technician, you see this home page:</para>
+    <graphic fileref="img/New Picture (1).png" width="450" align="center"/>
+    <para>Users with Technician rights can edit your profile to add or change email, phone, and profile picture. Username cannot be changed.
+Hover on the top right side of the top bar where you see your username e.g. Wasike.
+Click on the username to open a dropdown menu with ‘Edit profile’ and ‘Logout’ items as shown.
+</para>
+    <graphic fileref="img/New Picture (21).png" width="450" align="center"/>
+    <para>Once you click on ‘Edit profile’, you’ll get the following form</para>
+    <graphic fileref="img/New Picture.png" width="450" align="center"/>
+    <para>Update your details as appropriate and click on the ‘Update’ button
+To change your password, use the ‘Change password’ link on the ‘Edit profile’ form as shown.
+</para>
+    <graphic fileref="img/New Picture (2).png" width="450" align="center"/>
+    <para>Fill in the form carefully and save the changes using the ‘Update’ button.
+Do not share your password with anyone else and please do not forget your password.
+</para>
+  </section>
+  <section>
+    <title> Reports</title>
+    <para>Any user (Technician or Manager) can generate reports.</para>
+    <section>
+      <title>Daily Reports</title>
+      <para>The Patient Report and Daily Log should be run every day. </para>
+      <section>
+        <title>Patient Report</title>
+        <para>Search for the patient by Patient Name, Patient Number, or Patient ID. Click the Search 
+button to start search. Select the patient you want from the list if more than one patient 
+matches your search criteria. Click <emphasis role="bold">View Report</emphasis> to see all data for that patient, or Select <emphasis role="bold"> Tests</emphasis> to see tests ordered and the results for that patient. 
+You can edit the report to show activity within a date range, include pending tests for 
+which results are not available, set printing information, or export to Word using the 
+controls at the top of the page. </para>
+        <graphic fileref="img/r_home.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title>Daily Log</title>
+        <para>Set the date range to reflect the log to print. You can run a report of the day’s activity by 
+patients seen (by clicking <emphasis role="bold">Patient Records</emphasis>), or by tests run (by clicking <emphasis role="bold">Test Records</emphasis>). 
+If you choose Test Records, You can choose to run a log for one lab section or for one 
+type of test. The default settings are test records, all sections, and all tests. The report 
+opens in a new browser tab and has <emphasis role="bold">Print</emphasis> and <emphasis role="bold">Export</emphasis> controls at the top of the page.</para>
+        <graphic fileref="img/r_dlpatient_records.png" width="450" align="center"/>
+      </section>
+    </section>
+    <section>
+      <title>Aggregate Reports</title>
+      <section>
+        <title>Prevalence Rate</title>
+        <para>Gives the prevalence of a particular laboratory test result based on the number of tests 
+done and the results. Set a date range to view infection graph and prevalence rates. Click <emphasis role="bold"> Submit </emphasis>to run the report, which will open in a new browser tab. 
+You can also view the trends of the laboratory test results for the defined period, as a 
+graph, by clicking the <emphasis role="bold">Trends</emphasis> option after the report is displayed.</para>
+      </section>
+      <section>
+        <title>Counts</title>
+        <para>Generates a report for a particular time period of the number of tests, specimens, or 
+doctor statistics. Set a date range and choose <emphasis role="bold">Test Count</emphasis>, <emphasis role="bold">Specimen Count</emphasis>, or <emphasis role="bold">Doctor</emphasis> 
+Statistics to run the desired report.</para>
+        <graphic fileref="img/r_testcount_u.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title> Turnaround Time</title>
+        <para>Allows you to see actual turnaround times between test order and completion for all or 
+specific tests. Set a date range and choose whether to include <emphasis role="bold">Impending Tests</emphasis>. The 
+default is completed tests only. It also generates a 
+graph of the statistics.</para>
+      </section>
+      <section>
+        <title>Infection Report</title>
+        <para>Allows you to generate reports of infections by patient age and gender. Set a date range and select one <emphasis role="bold">Lab Section</emphasis>, or all sections to see all test results. The report opens in a new browser tab. It also provides an option to create a Word document of the generated report.</para>
+        <graphic fileref="img/r_infectionreport.png" width="450" align="center"/>
+      </section>
+      <section>
+        <title> User Statistics</title>
+        <para>Provides user report for a particular time period. For Collective User Statistics Click <emphasis role="bold">Collective User Stats</emphasis> then use check boxes; <emphasis role="bold">Patients Registered</emphasis>, <emphasis role="bold">Specimens Registered</emphasis>, <emphasis role="bold">Tests Registered </emphasis>and <emphasis role="bold">Results Entered</emphasis> to determine the report content. And for Individual User Logs Click <emphasis role="bold">Individual User Logs</emphasis> and use the check boxes to determine the report content. Submit to get a report</para>
+        <graphic fileref="img/r_userstats.png" width="450" align="center"/>
+      </section>
+    </section>
+  </section>
+  <section>
+    <title>Appendix</title>
+    <section>
+      <title>Glossary</title>
+      <para> <emphasis role="bold">Admin</emphasis> – Designation for a user that has control over lab configuration settings </para>
+      <para> <emphasis role="bold">Aggregate</emphasis> – Type of report that collects data over a period of time and presents it to the user </para>
+      <para> <emphasis role="bold">Barcodes</emphasis> – Used in inventory management to create printable &apos;barcode&apos; labels for reagents </para>
+      <para> <emphasis role="bold">Director</emphasis> – Designation for a user that oversees many laboratories, typically at the country level. Manages lab configuration standardization </para>
+      <para> <emphasis role="bold">Grouped Reports</emphasis> – Reports that cover multiple types of information. </para>
+      <para> <emphasis role="bold">Inventory</emphasis> – Interface for managing reagents and supplies </para>
+      <para> <emphasis role="bold">Lab Configuration</emphasis> – Collection of customizable settings relating to the collection and storage of data </para>
+      <para> <emphasis role="bold">Manager</emphasis> – Another name for an Admin user </para>
+      <para> <emphasis role="bold">Patient</emphasis> – Entry for a patient whose specimens tests are performed on </para>
+      <para> <emphasis role="bold">Prevalence Rate</emphasis> – The percentage rate of occurrence of a particular result of tests </para>
+      <para> <emphasis role="bold">Reagent</emphasis> – Term used in inventory control in BLIS. Denotes any physical supply that requires tracking in the inventory system </para>
+      <para> <emphasis role="bold">Registration</emphasis> – The act of entering a patient into the BLIS program. Creates a unique patient entry that can be associated with specimens and tests </para>
+      <para><emphasis role="bold"> Reports</emphasis> – Pages that collect metrics for various types of data. The scope of these reports varies from individual patients to entire groups of laboratories </para>
+      <para> <emphasis role="bold">Results </emphasis>- The recorded outcome of tests performed on specimens </para>
+      <para> <emphasis role="bold">Specimen</emphasis> – An entry representing a physical specimen or reading taken from a patient. </para>
+      <para> <emphasis role="bold">Specimen Type</emphasis> – Classification for different types of specimens </para>
+      <para> <emphasis role="bold">Technician</emphasis> – A designation for a user who is tasked with entering data into BLIS </para>
+      <para><emphasis role="bold"> Test </emphasis>– An entry representing a test or reading taken from a specimen </para>
+      <para> <emphasis role="bold">Test Type </emphasis>– Classification for different types of tests. </para>
+      <para> <emphasis role="bold">Turnaround Time</emphasis> – A measurement of the time it takes to receive a result, once a specimen is collected. </para>
+      <para> <emphasis role="bold">User</emphasis> – Any person or entity that logs into the BLIS program </para>
+      <para> <emphasis role="bold">Verify</emphasis> – An action performed on test entries that validates the results for further use </para>
+      <para> <emphasis role="bold">Worksheet </emphasis>– Customizable, printable sheets for improving the speed at which information is recorded in a physical sense (i.e. not entered directly into the BLIS program.) </para>
+    </section>
+  </section>
+</article>

@@ -1,0 +1,46 @@
+/* JSON Format for lab request */
+
+/*Outbound URL (request sent to BLIS)*/
+[
+   labRequest:{
+      "cost":null,
+      "receiptNumber":null,
+      "receiptType":null,
+      "labNo":369382,
+      "parentLabNo":0,
+      "requestingClinician":"sysadmin sysadmin ",
+      "investigation":"Urinalysis",
+      "requestDate":"2014-01-31 17:26:50",
+      "orderStage":"op",
+      "patientVisitNumber":374770,
+      "patient":{
+         "id":114818,
+         "fullName":"JENIFFER NASIMIYU MAKHANU",
+         "dateOfBirth":"1965-10-12 00:00:00",
+         "gender":"Female"
+      },
+      "address":{
+         "address":null,
+         "postalCode":null,
+         "phoneNumber":"254708320216",
+         "city":null
+      }
+   },
+   action:result,
+   controller:bliss
+]
+
+
+
+
+/*JSON Format for Lab Request result*/
+
+/*Inbound URL (result sent to sanitas)*/
+
+{
+   "labNo":369382,
+   "requestingClinician":1,
+   "result":"Positive",
+   "verifiedby":2,
+   "techniciancomment":"Treatment Needed"
+}
