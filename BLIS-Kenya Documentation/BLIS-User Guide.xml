@@ -150,6 +150,9 @@ Set up a  static   IP address for other computers on your network to view the se
         <listitem>
           <para>Login with the username: <emphasis role="bold">superadmin</emphasis> and password: <emphasis role="bold">admin123, </emphasis>be sure to change this password after logging in</para>
         </listitem>
+        <listitem>
+          <para>Save a bookmark on the browser for quick access.</para>
+        </listitem>
       </orderedlist>
       <para/>
       <para/>
