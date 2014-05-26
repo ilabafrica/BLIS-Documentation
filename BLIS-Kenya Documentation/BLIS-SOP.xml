@@ -11,60 +11,11 @@
     <releaseinfo>BLIS-Kenya v2.5 - A joint initiative of C4G @ Georgia Tech, the CDC, </releaseinfo>
     <releaseinfo>@iLabAfrica - Strathmore University , Association of Public Health Laboratories (APHL) and participating countries</releaseinfo>
   </articleinfo>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
-  <para/>
   <section>
     <title>Starting BLIS</title>
     <para>To start the Basic Laboratory Information System, you must click on the bookmark saved on the web browser e.g. Google Chrome or Mozilla Firefox.  You will then see a page requesting login information. You must then enter your credentials to proceed.</para>
     <graphic fileref="img/Untitled.png" align="center"/>
     <para>If you have forgotten your password, kindly contact the lab-in-charge for help</para>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
   </section>
   <section>
     <title>BLIS Technical Overview</title>
@@ -84,15 +35,6 @@ To change your password, use the ‘Change password’ link on the ‘Edit profi
     <para>Fill in the form carefully and save the changes using the ‘Update’ button.
 Do not share your password with anyone else and please do not forget your password.
 </para>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
-    <para/>
   </section>
   <section>
     <title>Tests</title>
