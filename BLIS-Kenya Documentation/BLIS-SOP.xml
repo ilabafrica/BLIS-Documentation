@@ -20,7 +20,7 @@
   <section>
     <title>BLIS Technical Overview</title>
     <para>When you log in as a technician, you see this home page:</para>
-    <graphic fileref="img/New Picture (1).png" width="450" align="center"/>
+    <graphic fileref="img/m_home.png" width="450" align="center"/>
     <para>With Technician rights you can edit your profile to add or change email, phone, and profile picture. Username cannot be changed.
 Hover on the top right side of the top bar where you see your username e.g. Wasike.
 Click on the username to open a dropdown menu with ‘Edit profile’ and ‘Logout’ items as shown.
