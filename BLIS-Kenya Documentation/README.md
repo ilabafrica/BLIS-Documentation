@@ -1,28 +1,5 @@
 <h2>BLIS-Kenya Documentation</h2>
 ===================================
-In html and pdf genrated from xml using Serna Docbook 4.4.0:
-------------------------------------------------------------
-pdf files
----------------
-BLIS-SOP.pdf
-BLIS-User_Guide.pdf
-Sys-Doc.pdf
-
-html Files
-----------------
-index.html
-toc.html
-BLIS-SOP.html
-BLIS-User Guide.html
-Sys-Doc.html
---------------------
-serna xml source Files
-BLIS-SOP.xml
-BLIS-User Guide.xml
-Sys-Doc.xml
-
-
-
 <h3>Standard Operating procedure (SOP)</h3>
 <p>Contains the steps of operation of the Laboratory Technician:</p>
 <ul>
