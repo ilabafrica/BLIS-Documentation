@@ -28,17 +28,17 @@ Process for updating the server from a remote location (Specific for Bungoma ser
 
     login -----       ssh -p8822 user@bgm-host 
                       cd /var/www/lis/blis
-    Tar a backup --   tar cjf ~/blis_data/blis-app_20140606.bz2 htdocs
+    Tar a backup --   tar cjf ~/blis_data/blis-code_YYYYMMDD.bz2 htdocs
 
 6. Extract the files in the update bundle and copy them to the htdocs folder.
 
     cd ~ 
     tar xjf blis-code-update_YYYYMMDD.bz2  
-    sudo cp -R htdocs/* /var/www/lis/blis/htdocs/
+    sudo cp -R htdocs/* WEBRROOT/blis/htdocs/
 
 Verify that the file have been replaced (Check 1 or 2 timestamps).
     
-    ls -l /var/www/lis/blis/htdocs/some/file/you/updated.php   - should show todays date.
+    ls -l WEBRROOT/blis/htdocs/some/file/you/updated.php   - should show todays date.
     
 
 That's it.
