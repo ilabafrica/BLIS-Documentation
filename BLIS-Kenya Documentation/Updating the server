@@ -34,7 +34,7 @@ Process for updating the server from a remote location (Specific for Bungoma ser
 
     cd ~ 
     tar xjf blis-code-update_YYYYMMDD.bz2  
-    sudo cp -R htdocs/ htdocs /var/www/lis/blis/
+    sudo cp -R htdocs/* /var/www/lis/blis/htdocs/
 
 Verify that the file have been replaced (Check 1 or 2 timestamps).
     
