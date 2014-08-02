@@ -16,7 +16,14 @@ Process for updating the server from a remote location (Specific for Bungoma ser
 
 3. Create a bundle with those files excluding db_constants.php and push_results.php
 
-    tar cjf blis-code-update_YYYYMMDD.bz2 [SPACE_SEPARATED_FILE_LIST] i.e tar cjf blis-code-update_YYYYMMDD.bz2 /htdocs/include/db_lib.php ....
+    tar cjf blis-code-update_YYYYMMDD.bz2 [SPACE_SEPARATED_FILE_LIST] i.e tar cjf blis-code-update_YYYYMMDD.bz2
+    /htdocs/include/db_lib.php ....
+
+    for simplicity you can output command 2 to a file e.g  git log --name-only --since="60 days ago" 
+    --oneline --format="%n" | grep "htdocs" | sort | uniq > allfiles.txt
+    
+    then do ` tar cjf blis-code-update-yyyymmdd.bz2 --files-from allfiles.txt `
+
 
 
 4. scp this file to the server.
