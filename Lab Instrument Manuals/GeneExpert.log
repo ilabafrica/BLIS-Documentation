@@ -1,0 +1,98 @@
+2015-06-27 13:30:08: GeneXpert handler started...
+2015-06-27 13:30:08: Starting Server socket on port 3014
+2015-06-27 13:30:08: Waiting for Equipment connection...
+2015-06-27 13:30:08: Listening on port 3014...
+2015-06-27 13:30:09: GeneXpert is now Connected...
+2015-06-27 13:30:09: Client instance created
+2015-06-27 13:30:09: Client instance created
+2015-06-27 13:30:09: Client thread has started
+2015-06-27 13:30:09: Client thread has started
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 1H|@^\|URM-ftXk04UA-90||GeneXpert PC^GeneXpert^4.4a|||||15828||P|1394-97|20150627133026
+P|1|||Mary Poppins
+O|1|260615_15828_00348||^^^MTB-RIF|R|20150626165539|||||||||ORH||||||||||F
+R|1|^MTB-RIF^^MTB^Xpert MTB-RIF Assay G4^5^MTB
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 2^|MTB NOT DETECTED^|||||F||Anthony Tester|20150626165539|20150626183914|Cepheid-3300V77^803859^637749^227062445^15403^20160221
+R|2|^MTB-RIF^^MTB^^^Probe D^|NEG^|||
+R|3|^MTB-RIF^^MTB^^^Probe D^Ct|^0|||
+R|4|^MTB-RIF^^MTB^^^Probe D^EndPt|^1.0
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 3|||
+R|5|^MTB-RIF^^MTB^^^Probe C^|NEG^|||
+R|6|^MTB-RIF^^MTB^^^Probe C^Ct|^0|||
+R|7|^MTB-RIF^^MTB^^^Probe C^EndPt|^1.0|||
+R|8|^MTB-RIF^^MTB^^^Probe E^|NEG^|||
+R|9|^MTB-RIF^^MTB^^^Probe E^Ct|^0|||
+R|10|^MTB-RIF^^MTB^^^Probe E^EndPt|^-1.0|||
+R|
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 411|^MTB-RIF^^MTB^^^Probe B^|NEG^|||
+R|12|^MTB-RIF^^MTB^^^Probe B^Ct|^0|||
+R|13|^MTB-RIF^^MTB^^^Probe B^EndPt|^2.0|||
+R|14|^MTB-RIF^^MTB^^^Probe A^|NEG^|||
+R|15|^MTB-RIF^^MTB^^^Probe A^Ct|^0|||
+R|16|^MTB-RIF^^MTB^^^Probe A^EndPt|^0|||
+R|17|^
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 5MTB-RIF^^MTB^^^SPC^|PASS^|||
+R|18|^MTB-RIF^^MTB^^^SPC^Ct|^28.8|||
+R|19|^MTB-RIF^^MTB^^^SPC^EndPt|^274.0|||
+R|20|^MTB-RIF^^Rif Resistance^Xpert MTB-RIF Assay G4^5^Rif Resistance^|^|||||F||Anthony Tester|20150626165539|20150626183914|Cepheid
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 6-3300V77^803859^637749^227062445^15403^20160221
+R|21|^MTB-RIF^^Rif Resistance^^^Probe D^|NEG^|||
+R|22|^MTB-RIF^^Rif Resistance^^^Probe D^Ct|^0|||
+R|23|^MTB-RIF^^Rif Resistance^^^Probe D^EndPt|^1.0|||
+R|24|^MTB-RIF^^Rif Resistance^^^Probe C^
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 7|NEG^|||
+R|25|^MTB-RIF^^Rif Resistance^^^Probe C^Ct|^0|||
+R|26|^MTB-RIF^^Rif Resistance^^^Probe C^EndPt|^1.0|||
+R|27|^MTB-RIF^^Rif Resistance^^^Probe E^|NEG^|||
+R|28|^MTB-RIF^^Rif Resistance^^^Probe E^Ct|^0|||
+R|29|^MTB-RIF^^Rif Resistance^
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 0^^Probe E^EndPt|^-1.0|||
+R|30|^MTB-RIF^^Rif Resistance^^^Probe B^|NEG^|||
+R|31|^MTB-RIF^^Rif Resistance^^^Probe B^Ct|^0|||
+R|32|^MTB-RIF^^Rif Resistance^^^Probe B^EndPt|^2.0|||
+R|33|^MTB-RIF^^Rif Resistance^^^Probe A^|NEG^|||
+R|34|^MTB-RIF^
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 1^Rif Resistance^^^Probe A^Ct|^0|||
+R|35|^MTB-RIF^^Rif Resistance^^^Probe A^EndPt|^0|||
+R|36|^MTB-RIF^^Rif Resistance^^^SPC^|PASS^|||
+R|37|^MTB-RIF^^Rif Resistance^^^SPC^Ct|^28.8|||
+R|38|^MTB-RIF^^Rif Resistance^^^SPC^EndPt|^274.0|||
+R|39|^M
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 2TB-RIF^^QC Check^Xpert MTB-RIF Assay G4^5^QC Check^|^|||||F||Anthony Tester|20150626165539|20150626183914|Cepheid-3300V77^803859^637749^227062445^15403^20160221
+R|40|^MTB-RIF^^QC Check^^^QC-1^|NEG^|||
+R|41|^MTB-RIF^^QC Check^^^QC-1^Ct|^0||
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 3|
+R|42|^MTB-RIF^^QC Check^^^QC-1^EndPt|^0|||
+R|43|^MTB-RIF^^QC Check^^^QC-2^|NEG^|||
+R|44|^MTB-RIF^^QC Check^^^QC-2^Ct|^0|||
+R|45|^MTB-RIF^^QC Check^^^QC-2^EndPt|^0|||
+L|1|N
+
+2015-06-27 13:30:26: [  ] sent successfully
+2015-06-27 13:30:26: New message recieved
+2015-06-27 13:30:26: 
+2015-06-27 13:30:26: 
+Test with Code: 260615_15828_00348 not Found on BLIS
